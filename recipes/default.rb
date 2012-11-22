@@ -6,8 +6,5 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-%w{mono-xbuild}.each do |pkg|
-  package pkg do
-    action :install
-  end
-end
+package "mono-xbuild"
+package "mono-apache-server"
