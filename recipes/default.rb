@@ -8,3 +8,4 @@
 #
 package "mono-xbuild"
 package "mono-apache-server"
+package "mono-fastcgi-server2"
